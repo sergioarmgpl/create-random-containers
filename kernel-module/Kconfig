@@ -1,0 +1,6 @@
+menuconfig DOCKER_PROCESS_LIST
+    bool "Docker Process List Module"
+    default n
+    help
+      This option enables the Docker Process List kernel module,
+      which lists the processes running in active Docker containers.
